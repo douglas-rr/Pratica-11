@@ -1,0 +1,126 @@
+html, body {
+    font-family: Verdana;
+    margin: 0;
+}
+
+header {
+    background-color:#ffbbdd;
+    display: flex;
+    height: 7rem;
+}
+
+.logoImg {
+    margin: .3rem .3rem .3rem .3rem;
+}
+
+.titulo {
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+nav {
+    font-family: Tahoma;
+    font-weight: bold;
+    background-color: #f0b0d0;
+    display: flex;
+}
+
+ul {
+    padding: 0;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 1rem 0 .7rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+section {
+    padding: 2rem 0 0 2rem;
+}
+
+.produto {
+    display: inline-block;
+    margin-right: 2rem;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 3rem;
+}
+
+img {
+    padding-bottom: 2.5rem;
+    
+}
+
+.detalhes {
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    height: 4.5rem;
+    font-size: .9rem;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffbbdd;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    display: inline;
+    font-size: .7rem;
+}
+
+form {
+    padding-top: 2rem;
+    display: block; /* para considerar a página toda na hora de alinhar o formulario no meio da página*/
+    text-align: center;
+}
+
+#ajusteNome { /*ajuste de alinhamento do input de nome*/
+    margin-left: 2.5rem;
+}
+
+#ajusteEmail { /*ajuste de alinhamento do input de e-mail*/
+    margin-left: 2.2rem;
+}
+
+input { /*formataçao dos inputs*/
+    width: 20.7rem;
+    margin-bottom: .5rem;
+}
+
+#contato { /*formatação do input de tipo de contato*/
+    width: 20.95rem;
+    margin-right: 2.6rem;
+    margin-bottom: .5rem;
+}
+#mensagem { /*altura do input de mensagem*/
+    height: 8rem;
+}
+
+#notificacao { /*alinhamento do checkbox*/
+    width: 1rem;
+    margin-left: 6.2rem;
+}
+
+#submit { /*formatação do botão enviar*/
+    margin-left: 6.2rem;
+    margin-top: 1.3rem;
+    width: 21.1rem;
+    height: 2rem;
+    background-color: #ffbbdd;
+}
